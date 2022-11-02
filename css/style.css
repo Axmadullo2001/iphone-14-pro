@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    background-color: black;
+    padding: 33px 0 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.container {
+    padding: 0px 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    list-style: none;
+}
+
+.menu-item {
+    padding-left: 30px;
+    margin: 20px 0;
+}
+
+.menu-item:first-child {
+    padding-left: 0;
+}
+
+.menu-link {
+    color: rgba(113, 113, 113, 1);
+}
+
+.logo-img {
+    width: 39px;
+    height: 48px;
+}
+
+.phone {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
+}
+
+.phone,
+.menu-link {
+    color: rgba(113, 113, 113, 1);
+}
+
+.headline {
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.title {
+    font-size: 64px;
+    line-height: 78px;
+    font-weight: 700;
+    padding-top: 44px;
+    margin: 0px 0 40px;
+    text-transform: uppercase;
+    color: rgba(73, 14, 132, 1);
+    font-family: 'Inter'
+}
+
+.headline-img {
+    width: 937px;
+    height: 657px;
+    margin-bottom: 25px;
+}
+
+.headline-btn {
+    display: inline-block;
+    background-color: #490E84;
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 22px 118px 19px;
+    margin-bottom: 67px;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+/* news part */
+
+.new {
+    padding: 87px 0px 50px;
+}
+
+.new-info {
+    display: flex;
+    justify-content: center;
+}
+
+.new-title {
+    margin: 0px 0px 50px;
+    text-align: center;
+    color: rgba(113, 113, 113, 1);
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.news-text p {
+    width: 560px;
+    font-family: 'Inter';
+    margin: 0px 0px 30px;
+    line-height: 18px;
+}
+
+.news-text p:last-child {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+
+/* color part */
+
+.color-title {
+    margin: 150px 0 50px;
+    text-align: center;
+    color: #717171;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.color-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.color-item h3 {
+    font-family: 'Inter';
+    color: rgba(10, 10, 10, 1);
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.color-item p {
+    font-family: 'Inter';
+    color: rgba(10, 10, 10, 1);
+    text-align: center;
+}
+
+/* contact */
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.contact-form {
+    background: rgba(87, 75, 99, 1);
+    padding: 138px 94px 62px;
+}
+
+.contact-title {
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 62px;
+}
+
+.contact-input {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #F5F5F5;
+    margin: 30px 0;
+    outline: none;
+}
+
+.contact-input::placeholder {
+    color: rgba(245, 245, 245, .5);
+    font-family: 'Inter';
+}
+
+.contact-form p {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: 'Inter';
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-form button {
+    padding: 16px 81px;
+    color: rgba(73, 14, 132, 1);
+    font-family: 'Inter';
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 18px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    background-color: rgba(10, 10, 10, 1);
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.footer-link {
+    color: rgba(113, 113, 113, 1);
+    font-size: 14px;
+}
+
+.footer-phone {
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 29px;
+    color: rgba(113, 113, 113, 1);
+}
+
+/* Media queries */
+
+@media (max-width: 1200px) {
+    .headline-img {
+        max-width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .color-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .color-item {
+        margin: 10px 20px;
+    }
+
+    .form-wrapper {
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+    .form-wrapper img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .contact-form {
+        padding: 20px 94px 62px;
+    }
+}
+
+@media (max-width: 960px) {
+    .menu-btn {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background: transparent;
+        order: 1;
+        cursor: pointer;
+        border: none;
+        position: relative;
+        z-index: 56;
+    }
+
+    .menu-btn .btn-line {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        height: 2px;
+        transition: .5s ease;
+    }
+
+    .menu-open .btn-line:nth-child(1),
+    .menu-open .btn-line:nth-child(4) {
+        transform: scale(0);
+    }
+
+    .menu-open .btn-line:nth-child(2) {
+        transform: rotate(45deg);
+    }
+
+    .menu-open .btn-line:nth-child(3) {
+        transform: rotate(-45deg);
+    }
+
+    .btn-line:nth-child(1) {
+        top: 0;
+
+    }
+    .btn-line:nth-child(2) {
+        top: 20px;
+
+    }
+    .btn-line:nth-child(3) {
+        top: 20px;
+
+    }
+    .btn-line:nth-child(4) {
+        top: 40px;
+    }
+
+    .menu-open .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        background: #000;
+        flex-grow: 1;
+        flex-basis: 0;
+        z-index: 55;
+        transform: translateY(0%);
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        top: 0%;
+        height: 100%;
+        transform: translateY(-100%);
+    }
+
+    .phone {
+        text-align: center;
+    }
+
+    .new-info img {
+        display: none;
+    }
+
+    .news-text p {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .news-text p:last-child {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .color-title {
+        margin: 0px 0 40px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 885px) {
+    .new-title {
+        margin: 0 0 25px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 40px;
+        line-height: 75px;
+        padding-top: 25px;
+        margin: 0px 0 0px;
+    }
+
+    .headline-btn {
+        padding: 15px 75px;
+    }
+
+    .form-wrapper {
+        max-width: 100%;
+    }
+
+    .contact-title {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .color-list {
+        justify-content: center;
+    }
+
+    .contact-form {
+        padding: 21px 15px 62px;
+    }
+
+    .contact-form button {
+        padding: 16px 45px;
+        line-height: 10px;
+    }
+
+    .contact-title {
+        font-size: 18px;
+    }
+
+    .contact-form p {
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    
+
+
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 26px;
+    }
+
+    .headline-btn {
+        padding: 10px 50px;
+    }
+
+    .contact-input::placeholder {
+        font-size: 14px;
+    }
+
+    .contact-title {
+        font-size: 16px;
+    }
+
+    .contact-form button {
+        padding: 16px 25px;
+        line-height: 10px;
+        font-size: 16px;
+    }
+}
+
